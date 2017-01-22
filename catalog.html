@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!--Ппц, Почему при открытии страницы в браузере, он ее отображает криво - одни знаки вопроса почти или квадратики в IE? Разметку делал в Notepad++. После создал новый файл, скопировал туда все содержимое из предыдущего и в браузере норм отобразилось-->
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог товаров</title>
+  </head>
+  <body>
+	<header class="main-header">
+      <div class="container">
+		<div class="header-logo">
+          <img src="img/header-logo.png" width="205" height="55" alt="Барбершоп «Бородинский»">
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Инфорация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+	  </header>
+	  <div class="content">
+		<div class="navigation-content">
+			<h2>Средства для ухода</h2>
+			<ul>
+				<li>
+					<a href="#">Главная</a>
+				</li>
+				<li>
+					<a href="#">Магазин</a>
+				</li>
+				<li>
+					<a href="#">Средства для ухода</a>
+				</li>
+			</ul>
+		</div>
+		<div class="ctalog-producers-goods">
+			<!--Производители, группы товаров и сами товары их в таблицу размечать или можно в дивы а потом КСС разбить на две колонки? 
+			и сколько делать этих товаров в виде arcticle?-->
+			<b>Производители</b>
+			<form>
+				<label>
+					<input type="checkbox" name="Baxter of california">
+					Baxter of california <!--Буквы заглавными писать или потом можно в Ксс настроить?-->
+				</label>
+				<label>
+					<input type="checkbox" name="Mr Natty">
+					Mr Natty
+				</label>
+				<label>
+					<input type="checkbox" name="Suavecito">
+					Suavecito
+				</label>
+				<label>
+					<input type="checkbox" name="Malin+Goetz">
+					Malin+Goetz
+				</label>
+				<label>
+					<input type="checkbox" name="Murray's">
+					Murray's
+				</label>
+				<label>
+					<input type="checkbox" name="American Crew">
+					American Crew
+				</label>
+			</form>
+				<article class="case1-catalog"> <!--Тегов артикл делать столько же сколько на картинке в исходнике? И они в разметке скорее идут после goods?-->
+					<div	class="case1-products">
+						<img src="#" alt="" width="200" height="50" > 
+						<!--Ширину и высоту пока не смотрел в исходниках, так как адоб надо продливать или ставить пиратскую версию-->
+						<h3>набор для путешествий "baxter of california<h3><!--Название должно автоматом прописываться или надо все же прописать как на картинке?-->
+						<b>2900 руб.</b> <!--Тотже вопрос как и с h3-->
+						<a href="#">Купить</a>
+					</div>
+				</article>
+				<article class="case2-catalog"> <!--Тегов артикл делать столько же сколько на картинке в исходнике? И они в разметке скорее идут после goods?-->
+					<div	class="case2-products">
+						<img src="#" alt="" width="200" height="50" > 
+						<!--Ширину и высоту пока не смотрел в исходниках, так как адоб надо продливать или ставить пиратскую версию-->
+						<h3>Увлажняющий кондиционер "BAXTER OF CALIFORNIA@<h3><!--Название должно автоматом прописываться или надо все же прописать как на картинке?-->
+						<b>750 руб.</b> <!--Тотже вопрос как и с h3-->
+						<a href="#">Купить</a>
+					</div>
+				</article>
+				<article class="case3-catalog"> <!--Тегов артикл делать столько же сколько на картинке в исходнике? И они в разметке скорее идут после goods?-->
+					<div	class="case3-products">
+						<img src="#" alt="" width="200" height="50" > 
+						<!--Ширину и высоту пока не смотрел в исходниках, так как адоб надо продливать или ставить пиратскую версию-->
+						<h3>Гель для волос<h3><!--Название должно автоматом прописываться или надо все же прописать как на картинке?-->
+						<b>290 руб.</b> <!--Тотже вопрос как и с h3-->
+						<a href="#">Купить</a>
+					</div>
+				</article>
+				<article class="case4-catalog"> <!--Тегов артикл делать столько же сколько на картинке в исходнике? И они в разметке скорее идут после goods?-->
+					<div	class="case4-products">
+						<img src="#" alt="" width="200" height="50" > 
+						<!--Ширину и высоту пока не смотрел в исходниках, так как адоб надо продливать или ставить пиратскую версию-->
+						<h3>Глина для укладки волос "AMERICAN CREW"<h3><!--Название должно автоматом прописываться или надо все же прописать как на картинке?-->
+						<b>500 руб.</b> <!--Тотже вопрос как и с h3-->
+						<a href="#">Купить</a>
+					</div>
+				</article>
+				<article class="case5-catalog"> <!--Тегов артикл делать столько же сколько на картинке в исходнике? И они в разметке скорее идут после goods?-->
+					<div	class="case5-products">
+						<img src="#" alt="" width="200" height="50" > 
+						<!--Ширину и высоту пока не смотрел в исходниках, так как адоб надо продливать или ставить пиратскую версию-->
+						<h3>Гель для волос "AMERICAN CREW"<h3><!--Название должно автоматом прописываться или надо все же прописать как на картинке?-->
+						<b>300 руб.</b> <!--Тотже вопрос как и с h3-->
+						<a href="#">Купить</a>
+					</div>
+				</article>
+				<article class="case6-catalog"> <!--Тегов артикл делать столько же сколько на картинке в исходнике? И они в разметке скорее идут после goods?-->
+					<div	class="case6-products">
+						<img src="#" alt="" width="200" height="50" > 
+						<!--Ширину и высоту пока не смотрел в исходниках, так как адоб надо продливать или ставить пиратскую версию-->
+						<h3>Набор для бриться "BAXTER OF CALIFORNIA"<h3><!--Название должно автоматом прописываться или надо все же прописать как на картинке?-->
+						<b>3900 руб.</b> <!--Тотже вопрос как и с h3-->
+						<a href="#">Купить</a>
+					</div>
+				</article>
+		</div>
+		<div class="catalog-goods">
+			<b>Группы товаров</b>
+			<form>
+				<label>
+					<input type="checkbox" name="Shaving accessories">
+					Бритвенные принадлежности <!--Буквы заглавными писать или потом можно в Ксс настроить?-->
+				</label>
+				<label>
+					<input type="checkbox" name="Care Funds">
+					Средства для ухода
+				</label>
+				<label>
+					<input type="checkbox" name="accessories">
+					Аксессуары
+				</label>
+			</form>
+			<label for="Show"></label>
+			<input type="" name="Show" id="Show"> <!--Скорее это ссылка? Что затип кнопки? -->
+		</div>
+		<div class="catalog-pages"><!--Заключить их в ul-li?-->
+			<a href"#">1</a>
+			<a href"#">2</a>
+			<a href"#">3</a>
+			<a href"#">4</a>
+		</div>
+	  </div>
+	  <footer>
+		<div class="container">
+			<section class="footer-contacts">
+				Барбершоп «Бородинский»<br>
+				Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+				<a href="#">Как нас найти?</a><br>
+				Телефон: +7 (812) 666-02-66
+			</section>
+			<section class="footer-social">
+				<p>Давайте дружить!</p>
+				<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+				<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+				<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+			</section>
+			<section class="footer-copyright">
+				<p>Разработано:</p>
+				<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+			</section>
+		</div>
+	  </footer>
+  </body>
+</html>
