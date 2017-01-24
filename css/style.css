@@ -1,3 +1,29 @@
 body {
-	background-image: url("img/Layer header.jpg");
+	font-size: 16px;
+	line-height: 22px;
+	color: black;
+	font-weight: normal;
+	font-family: "Times new roman", sans-serif;
+	background-image: url("img\layer_footer.jpg");
 }
+h2 {
+	font-size: 20px;
+	line-height: 26px;
+	color: black;
+	font-weight: normal;
+	font-family: "Times new roman", sans-serif;
+}
+h3 {
+	font-size: 18px;
+	line-height: 24px;
+	color: black;
+	font-weight: normal;
+	font-family: "Times new roman", sans-serif;
+}
+footer {
+	background-color: yellow;
+}
+.header-logo{
+	background-color: yellow;
+}
+
