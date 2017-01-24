@@ -3,25 +3,21 @@ body {
 	line-height: 22px;
 	color: black;
 	font-weight: normal;
-	font-family: "Times new roman", sans-serif;
-	background-image: url("img\layer_footer.jpg");
+	font-family: "Times New Roman", sans-serif;
 }
 h2 {
 	font-size: 20px;
 	line-height: 26px;
 	color: black;
 	font-weight: normal;
-	font-family: "Times new roman", sans-serif;
+	font-family: "Times New Roman", sans-serif;
 }
 h3 {
 	font-size: 18px;
 	line-height: 24px;
 	color: black;
 	font-weight: normal;
-	font-family: "Times new roman", sans-serif;
-}
-footer {
-	background-color: yellow;
+	font-family: "Times New Roman", sans-serif;
 }
 .header-logo{
 	background-color: yellow;
