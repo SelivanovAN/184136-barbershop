@@ -3,23 +3,26 @@ body {
 	line-height: 22px;
 	color: black;
 	font-weight: normal;
-	font-family: "Times New Roman", sans-serif;
+	font-family: "Times New Roman", "Tahoma", "Arial", sans-serif;
 }
 h2 {
 	font-size: 20px;
 	line-height: 26px;
 	color: black;
 	font-weight: normal;
-	font-family: "Times New Roman", sans-serif;
+	font-family: "Times New Roman", "Tahoma", "Arial", sans-serif;
 }
 h3 {
 	font-size: 18px;
 	line-height: 24px;
 	color: black;
 	font-weight: normal;
-	font-family: "Times New Roman", sans-serif;
+	font-family: "Times New Roman", "Tahoma", "Arial", sans-serif;
 }
-.header-logo{
+.main-navigation {
+    list-style: none;
+}
+.header-logo {
 	background-color: yellow;
 }
 
