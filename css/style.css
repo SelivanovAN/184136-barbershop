@@ -3,26 +3,86 @@ body {
 	line-height: 22px;
 	color: black;
 	font-weight: normal;
-	font-family: "Times New Roman", "Tahoma", "Arial", sans-serif;
-}
-h2 {
-	font-size: 20px;
-	line-height: 26px;
-	color: black;
-	font-weight: normal;
-	font-family: "Times New Roman", "Tahoma", "Arial", sans-serif;
-}
-h3 {
-	font-size: 18px;
-	line-height: 24px;
-	color: black;
-	font-weight: normal;
-	font-family: "Times New Roman", "Tahoma", "Arial", sans-serif;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
 }
 .main-navigation {
     list-style: none;
 }
 .header-logo {
-	background-color: yellow;
+	background-color: #000000;
 }
+.content h2,
+.breadcrumbs h2 {
+	font-size: 30px;
+	line-height: 42px;
+	color: #000000;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+.content li,
+.breadcrumbs li   {
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+.producers-goods h3 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #000000;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+.description-product {
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+.description-product a {
+	color: #ffffff;
+	background-color: #000000;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+.description-product .article {
+	font-size: 14px;
+	line-height: 24px;
+	color: #aeaeae;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+.description-product .composition {
+	font-size: 24px;
+	line-height: 30px;
+	color: #000000;
+	text-transform: uppercase;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+.producers-goods label {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+.case-catalog h3,
+.case-catalog b {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+footer {
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #212121;
+}
+.footer-contacts a {
+	color: #ffffff;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+.footer-copyright a {
+	color: #ffffff;
+	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+	
+	
+
 
