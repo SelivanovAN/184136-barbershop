@@ -29,6 +29,19 @@ body {
     list-style: none;
 	min-height: 70px;
 }
+.main-navigation a {
+	color: #ffffff;
+}
+
+.breadcrumbs a {
+	color: #000000;
+}
+.main-menu li,
+.breadcrumbs-menu  li {
+	display: inline;
+	margin-right: 5px;
+}
+
 .user-block {
 	float: right;
 	min-height: 70px;
