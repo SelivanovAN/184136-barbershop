@@ -64,6 +64,12 @@ body {
 	color: #000000;
 	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
 }
+.producers-goods a {
+	height: 45px;
+	padding: 10px 40px;
+	background-color: #000000;
+	padding-bottom: 20px;
+}
 .catalog {
 	float: right;
 	width: 700px;
@@ -93,6 +99,7 @@ body {
 .catalog-pages {
 	float: left;
 	margin-left: 240px;
+	margin-bottom: 50px;
 }
 
 .description-product {
