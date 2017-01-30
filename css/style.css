@@ -10,13 +10,13 @@ body {
     display: table;
     clear: both;
 }
-.main-header {
-	background-color: #000000;
-}
 .container {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0;
+}
+.main-header {
+	background-color: #000000;
 }
 .header-logo {
 	float: left;
