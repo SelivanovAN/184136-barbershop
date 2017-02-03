@@ -17,6 +17,8 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
+
+/*--ШАПКА--*/
 .main-header {
 	color: #ffffff;
 	background-color: #000000;
@@ -27,6 +29,7 @@ body {
 	height: 24px;
 	margin: 0 auto;
 	margin-right: 40px;
+	margin-left: 20px;
 	margin-top: 23px;
 }
 .main-navigation {
@@ -94,6 +97,9 @@ body {
 	width: 750px;
 	margin-top: 60px;
 }
+/*--/ШАПКА--*/
+
+
 .breadcrumbs-menu {
 	margin: 0;
 	padding: 0;
@@ -133,48 +139,87 @@ body {
 .breadcrumbs li:last-child  a {
 	color: #aba9a7;
 }
+
+/*--БЛОК ОСНОВНОГО СОДЕРЖАНИЯ ТОВАРОВ--*/
 .content {
-	background-color: #f9f6f3;
-}
-.content h2,
-.breadcrumbs h2 {
-	font-size: 30px;
-	line-height: 42px;
+	font-size: 14px;
+	line-height: 24px;
 	color: #000000;
 	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	text-transform: uppercase;
+	background-color: #f7f4f1;
 }
+	/*--БЛОК ФОРМЫ--*/
 .producers-goods {
 	float: left;
 	width: 220px;
+	margin-top: 0;
 	margin-right: 20px;
 	margin-top: 55px;
 }
-.producers-goods h3 {
+.producers-goods h2 {
 	font-size: 24px;
 	line-height: 30px;
 	color: #000000;
-	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	margin: 0;
+	margin-bottom: 30px;
 }
-.producers-goods a {
-	height: 45px;/*line-height ?*/
-	padding: 10px 40px;
-	background-color: #000000;
-	padding-bottom: 20px;
+.producers-goods  input {
+	float: left;
+	width: 16px;
+	height: 16px;
+	border: 2px solid #6d6c6b;
+	margin-right: 23px;
 }
+.producers-goods label {
+	display: inline-block;
+	height: 20px;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	color: #000000;
+	margin-bottom: 17px;
+}
+
+	/*--/БЛОК ФОРМЫ--*/
+	
+	/*--БЛОК ТОВАРОВ--*/
 .catalog {
 	float: right;
 	width: 700px;
 	margin-top: 55px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	text-transform: none;
 }
 .case-catalog {
+	position: relative;
 	float:left;
 	width: 220px;
 	height: 286px;
 	margin-right: 20px;
+	background: #ffffff;
+	box-shadow: 0 0 20px 0px #bebdbc;
+	margin-bottom: 20px;
 }
 .case-catalog:nth-child(3),
 .case-catalog:nth-child(6) {
 	margin-right: 0;
+}
+.case-catalog .item {
+	display: block;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.item a {
+	font-size: 14px;
+	line-height: 18px;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	color: #727272;
+	text-decoration: none;
 }
 .photos-content {
 	float: left;
@@ -188,35 +233,47 @@ body {
 .photos-content img:nth-child(4) {
 	width: 140px;
 }
+	/*--БЛОК ПЕРЕКЛЮЧЕНИЯ СТРАНИЦ--*/
 .catalog-pages {
 	float: left;
 	margin-bottom: 50px;
 }
-.catalog-pages li {
-	display: inline;
-	margin-right: 10px;
+.goods-pages {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
 }
-.catalog-pages a {
-	display: inline;
+.goods-pages  li {
+	display: inline-block;
+	vertical-align: middle;
 	font-size: 14px;
+	line-height: 18px;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	
+}
+.goods-pages .btn-page {
+	display: block;
+	width: 43px;
 	height: 43px;
-	padding: 43px 43px;
+	font-size: 14px;
 	line-height: 43px;
-	text-align: center;
-    vertical-align: middle;
-    font-weight: bold;
-    text-decoration: none;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
 	color: #ffffff;
-	background-color: #000000;
+	margin-right: 7px;
+	padding: 0 0;
+	text-decoration: none;
+	text-align: center;
+	background: #000000;
 }
-.catalog-pages .current {
-	background-color: #ffffff;
+.goods-pages .active {
 	color: #000000;
+	background: #ffffff;
 }
-.catalog-pages a:nth-child(2) {
-	color: #000000;
-	background-color: #ffffff;
-}
+	/*--/БЛОК ПЕРЕКЛЮЧЕНИЯ СТРАНИЦ--*/
+	/*--/БЛОК ТОВАРОВ--*/
+/*--/БЛОК ОСНОВНОГО СОДЕРЖАНИЯ ТОВАРОВ--*/
+
 .description-product {
 	float: right;
 	width: 390px;
@@ -225,8 +282,6 @@ body {
 	line-height: 24px;
 	color: #000000;
 	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
-	/*margin-left: 90px; почему не работает?
-	padding-left: 20px;*/
 }
 .description-product a {
 	color: #ffffff;
@@ -253,27 +308,27 @@ body {
 	text-transform: uppercase;
 	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
 }
-.case-catalog h3,
-.case-catalog b {
-	font-size: 14px;
-	line-height: 18px;
-	color: #000000;
-	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
-}
+/*-- БЛОК ПОДВАЛА --*/
 footer {
+	padding-top: 60px;
+	padding-bottom: 40px;
 	color: #ffffff;
 	text-transform: uppercase;
-	background-color: #212121;
+	background-color: #252525;
 }
 .footer-contacts {
 	float: left;
 	width: 320px;
 	margin-right: 60px;
 }
-
 .footer-contacts a {
+	font-size: 14px;
+	line-height: 24px;
 	color: #ffffff;
 	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+}
+.footer-contacts a:hover {
+	text-decoration: none;
 }
 .footer-copyright a {
 	color: #ffffff;
@@ -282,14 +337,127 @@ footer {
 .footer-social {
 	float: left;
 	width: 180px;
+	text-align: center;
+}
+.footer-social  p {
+	margin: 0;
+	margin-bottom: 15px;
+}
+.social-btn {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	margin: 0 2px;
+	font-size: 0;
+	vertical-align: top;
+	text-decoration: none;
+	transition: 
+		background-position 0.5s,
+		background-color 0.5s;
+}
+.social-btn:hover {
+	background-color: #ffffff;
+}
+.social-btn-vk {
+	background:  #000000 url("../img/v.png") no-repeat center;
+}
+.social-btn-fb {
+	background:  #000000 url("../img/f.png") no-repeat center;
+}
+.social-btn-inst {
+	background:  #000000 url("../img/t.png") no-repeat center;
+}
+.social-btn-vk:hover {
+	background: #ffffff url("../img/v_active.png") no-repeat center;
+}
+
+.social-btn-fb:hover {
+	background: #ffffff url("../img/f_active.png") no-repeat center;
+}
+
+.social-btn-inst:hover {
+	background: #ffffff url("../img/t_active.png") no-repeat center;
 }
 .footer-copyright {
 	float: right;
-	width: 140px;
+	max-width: 180px;
 }
+.footer-copyright p {
+	margin: 0;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.footer-copyright .btn-footer {
+	display: inline-block;
+	width: 180px;
+	font-size: 14px;
+	line-height: 43px;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 0;
+}
+.btn-footer:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
+/*-- /БЛОК ПОДВАЛА --*/
 
-
+/*--КНОПКИ ТОВАРОВ И ЦЕНА--*/
+.btn {
+	display: inline-block;
+	padding: 15px 20px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	/*vertical-align: top;*/
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #000000;
+	border: none;
+	cursor: pointer;
+}
+.cost {
+	display: inline-block;
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	padding: 15px 35px;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	/*vertical-align: top;*/
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #e5e5e5;
+	border: none;
+}
+.btn:hover,
+.btn:active {
+  background-color: #663d15;
+}
+.btn.disabled,
+.btn:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+.btn.disabled:hover,
+.btn:disabled:hover {
+  background-color: #000000;
+}
+.btn-bye {
+	position: absolute;
+	bottom: 16px;
+	right: 17px;
+}
+.btn-show {
+	position: relative;
+	width: 112px;
 	
-	
-
-
+}
+/*--/КНОПКИ И ЦЕНА--*/
