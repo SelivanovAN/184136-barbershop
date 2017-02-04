@@ -130,15 +130,17 @@ body {
 	line-height: 20px;
 	font-family: "PT Sans Narrow", "Arial", sans-serif;
 	color: #000000;
-	padding-right: 15px;
+	padding-right: 25px;
 	margin-right: 15px;
 	text-decoration: none;
 }
-.breadcrumbs a::after {
+.breadcrumbs li:first-child a::after,
+.breadcrumbs li:nth-child(2) a::after,
+.breadcrumbs li:nth-child(3) a::after {
 	content: "";
 	position: absolute;
-	top: 5px;
-	left: 58px;
+	top: 25%;
+	right: 0px;
 	display: block;
 	width: 10px;
 	height: 10px;
