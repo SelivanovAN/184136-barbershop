@@ -92,19 +92,23 @@ body {
 .user-block  a {
 	color: #ffffff;
 }
+/*--/ШАПКА--*/
+
 .breadcrumbs {
 	float: left;
 	width: 750px;
-	margin-top: 60px;
+	margin-top: 55px;
 }
-/*--/ШАПКА--*/
-
-
 .breadcrumbs-menu {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	font-size: 0;
+	margin-bottom: 53px;
+}
+.breadcrumbs h2 {
+	margin: 0;
+	margin-bottom: 24px;
 }
 .breadcrumbs-menu  li {
 	display: inline-block;
@@ -135,7 +139,6 @@ body {
 	background-color: #000000;
 	transform: rotate(45deg);
 }
-
 .breadcrumbs li:last-child  a {
 	color: #aba9a7;
 }
@@ -155,7 +158,7 @@ body {
 	width: 220px;
 	margin-top: 0;
 	margin-right: 20px;
-	margin-top: 55px;
+	/*margin-top: 55px;*/
 }
 .producers-goods h2 {
 	font-size: 24px;
@@ -189,7 +192,7 @@ body {
 .catalog {
 	float: right;
 	width: 700px;
-	margin-top: 55px;
+	/*margin-top: 55px;*/
 	font-size: 14px;
 	line-height: 18px;
 	color: #000000;
