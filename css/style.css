@@ -6,6 +6,7 @@ body {
 	color: #ffffff;
 	font-family: "PT Sans Narrow", "Arial", sans-serif;
 	text-transform: uppercase;
+	background-color: #f7f4f1;
 }
 .clearfix {
 	content: "";
@@ -52,11 +53,18 @@ body {
 .main-menu a {
 	display: block;
 	padding: 25px 20px;
+	font-size: 16px;
+	line-height: 20px;
 	color: #ffffff;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
 	text-decoration: none;
 } 
 .main-menu a:hover {
 	background: #242424;
+}
+.main-menu li:nth-child(4) a {
+	
+	border-bottom: 4px solid #ffffff;
 }
 .user-block {
 	float: right;
@@ -90,7 +98,10 @@ body {
   opacity: 1;
 }
 .user-block  a {
+	font-size: 16px;
+	line-height: 20px;
 	color: #ffffff;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
 /*--/ШАПКА--*/
 
@@ -98,11 +109,12 @@ body {
 .breadcrumbs {
 	float: left;
 	width: 750px;
-	margin-top: 55px;
+	/*margin-top: 55px;*/
 }
 .breadcrumbs h2 {
 	margin: 0;
-	margin-bottom: 24px;
+	margin-top: 58px;
+	margin-bottom: 20px;
 	font-size: 30px;
 	line-height: 42px;
 	color: #000000;
@@ -276,6 +288,19 @@ body {
 	color: #000000;
 	background: #ffffff;
 }
+.btn-page:hover,
+.btn-page:active {
+  background-color: #663d15;
+}
+.btn-page.disabled,
+.btn-page:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+.btn-page.disabled:hover,
+.btn-page:disabled:hover {
+  background-color: #000000;
+}
 	/*--/БЛОК ПЕРЕКЛЮЧЕНИЯ СТРАНИЦ--*/
 	/*--/БЛОК ТОВАРОВ--*/
 /*--/БЛОК ОСНОВНОГО СОДЕРЖАНИЯ ТОВАРОВ--*/
@@ -446,12 +471,16 @@ footer {
 	float: left;
 	width: 320px;
 	margin-right: 60px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
 .footer-contacts a {
 	font-size: 14px;
 	line-height: 24px;
 	color: #ffffff;
-	font-family: "PTSans NarrowBold", "Tahoma", "Arial", sans-serif;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
 .footer-contacts a:hover {
 	text-decoration: none;
