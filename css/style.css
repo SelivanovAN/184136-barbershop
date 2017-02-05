@@ -29,13 +29,13 @@ body {
 	width: 111px;
 	height: 24px;
 	margin: 0 auto;
-	margin-right: 40px;
+	margin-right: 20px;
 	margin-left: 20px;
 	margin-top: 23px;
 }
 .main-navigation {
 	float: left;
-	width: 540px;
+	width: 545px;
 	min-height: 70px;
 }
 .main-menu {
